@@ -1,0 +1,20 @@
+.box div {
+    float: left;
+    width: 100px;
+    height: 100px; 
+}
+.impar div:nth-child(odd) {
+    background-color: #dfdfdf; 
+}
+
+.impar div:nth-child(even) {
+    background-color: #383220;
+}
+
+.par div:nth-child(even) {
+    background-color: #6cff47; } 
+}
+
+.par div:nth-child(odd) {
+    background-color: #a300cc; 
+}
